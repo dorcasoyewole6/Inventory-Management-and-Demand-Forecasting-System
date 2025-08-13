@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.demand-forecasting]
+path = 'contracts/demand-forecasting.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.location-management]
 path = 'contracts/location-management.clar'
 clarity_version = 2
